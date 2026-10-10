@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div id="entrada">
+    <h1>VOID</h1>
+    <p>SEU ESTILO. SUAS REGRAS.</p>
+    </div>
+
+    <header>
+        <h1>VOID</h1>
+        <a href="#Inicio">Inicio</a>
+        <a href="#Produtos">Produtos</a>
+        <a href="#Categorias">Categorias</a>
+        <a href="#Carrinho">🛒 Carrinho</a>    
+    </header>
+    <main>
+        <section id="Inicio">
+            <h1>Seu estilo. Suas regras.</h1>
+            <p>Roupas que combinam com quem você é.<br>
+            Explore nossa coleção e encontre seu próximo visual.</p>
+            <img src="imagens/pexels-cottonbro-6616673.jpg" alt="">
+        </section>
+        <section id="Produtos">
+              <h2>Produtos</h2>
+           
+        </section>
+        <section id="Categorias">
+            <h2>Encontre seu estilo</h2>
+
+            <input type="button" value="Todos"
+                onclick="filtrarCategoria('Todos')">
+
+            <input type="button" value="Camisetas"
+                onclick="filtrarCategoria('Camisetas')">
+
+            <input type="button" value="Calças"
+                onclick="filtrarCategoria('Calças')">
+
+            <input type="button" value="Moletons"
+                onclick="filtrarCategoria('Moletons')">
+
+            <input type="button" value="Acessórios"
+                onclick="filtrarCategoria('Acessórios')">
+
+            <input type="button" value="Calçados"
+                onclick="filtrarCategoria('Calçados')">
+        </section>
+        <section id="Carrinho"></section>
+        <footer id="Rodape">
+            <div>
+                <h2>VOID</h2>
+                <p>Seu estilo. Suas regras.</p>
+            </div>
+
+            <div>
+                <h3>Navegação</h3>
+                <a href="#Inicio">Início</a>
+                <a href="#Produtos">Produtos</a>
+                <a href="#Categorias">Categorias</a>
+                <a href="#Carrinho">Carrinho</a>
+            </div>
+
+            <div>
+                <h3>Atendimento</h3>
+                <p>Entre em contato conosco.</p>
+                <a href="#Inicio">Voltar ao início</a>
+            </div>
+
+            <p class="direitos">
+                © 2026 VOID — Todos os direitos reservados.
+            </p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
