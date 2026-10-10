@@ -38,3 +38,9 @@ Praticar desenvolvimento front-end, manipulação do DOM, funções, arrays, obj
 ## Estado do projeto
 
 Projeto demonstrativo em desenvolvimento. Não possui integração com processamento de pagamentos nem sistema de gestão de pedidos.
+
+Capturas de tela
+
+Capturar.png
+2.png
+3.png
