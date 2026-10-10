@@ -41,6 +41,6 @@ Projeto demonstrativo em desenvolvimento. Não possui integração com processam
 
 Capturas de tela
 
-Capturar.png
+1.png
 2.png
 3.png
